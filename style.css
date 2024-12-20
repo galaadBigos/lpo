@@ -1,0 +1,270 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #004080;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #0073e6;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0073e6;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  background-color: #0066cc;
+  outline: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #004080;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+nav ul li ul li {
+  width: 200px;
+}
+
+nav ul li ul li a {
+  padding: 0.5rem;
+}
+
+nav ul li ul li a:hover, nav ul li ul li a:focus {
+  background-color: #0066cc;
+}
+
+nav ul li[aria-expanded="true"] > ul {
+  display: block;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: #ffffff;
+  color: #004080;
+  padding: 8px;
+  border: 2px solid #004080;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+main {
+  padding: 1rem;
+}
+
+:focus {
+  outline: 3px dashed #0066cc;
+}
+
+img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+figure {
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 90%;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+
+.card {
+  max-width: 500px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form fieldset {
+  border: none;
+  padding: 0;
+}
+
+form legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0073e6;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input[type="text"]:focus {
+  border-color: #0073e6;
+  box-shadow: 0 0 5px rgba(0, 115, 230, 0.5);
+  outline: none;
+}
+
+form label span {
+  color: red;
+  font-weight: bold;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}
+
+form button:active {
+  transform: scale(0.98);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004080;
+  color: #ffffff;
+}

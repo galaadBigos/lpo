@@ -1,10 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>LPO - Ligue pour la Protection des Oiseaux</title>
+  <meta
+    content="La Ligue pour la Protection des Oiseaux (LPO) agit pour la protection des oiseaux et de leurs habitats. Découvrez nos actions et comment vous pouvez contribuer."
+    name="description">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Passer au contenu principal</a>
+<header>
+  <h1 id="site-title">Bienvenue sur le site de la LPO</h1>
+  <nav aria-label="Navigation principale">
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li>
+        <a aria-expanded="false" aria-haspopup="true" href="#">À propos</a>
+        <ul role="menu">
+          <li role="menuitem"><a href="#">Notre histoire</a></li>
+          <li role="menuitem"><a href="#">Notre équipe</a></li>
+          <li role="menuitem"><a href="#">Nos partenaires</a></li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded="false" aria-haspopup="true" href="#">Nos actions</a>
+        <ul role="menu">
+          <li role="menuitem"><a href="#">Protection des espèces</a></li>
+          <li role="menuitem"><a href="#">Conservation des habitats</a></li>
+          <li role="menuitem"><a href="#">Sensibilisation et éducation</a></li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded="false" aria-haspopup="true" href="#">Actualités</a>
+        <ul role="menu">
+          <li role="menuitem"><a href="#">Dernières nouvelles</a></li>
+          <li role="menuitem"><a href="#">Événements</a></li>
+          <li role="menuitem"><a href="#">Communiqués de presse</a></li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded="false" aria-haspopup="true" href="#">Contact</a>
+        <ul role="menu">
+          <li role="menuitem"><a href="#">Nous contacter</a></li>
+          <li role="menuitem"><a href="#">Adhérer</a></li>
+          <li role="menuitem"><a href="#">Faire un don</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main id="main-content">
+  <section>
+    <figure aria-label="Image d'un puffin des Baléares avec légende décrivant l'espèce et ses menaces principales"
+            role="figure">
+      <img alt="Un puffin des Baléares prenant son envol depuis la surface de l'eau"
+           src="http://ornitho-66.com/images/Photos/Puffin-Balares.jpg"/>
+      <figcaption>
+        Le puffin des Baléares (<em>Puffinus mauretanicus</em>) est une espèce en danger critique. Ses principales
+        menaces sont la pollution plastique et la capture accidentelle par la pêche.
+      </figcaption>
+    </figure>
+    <table aria-describedby="table-summary">
+      <caption id="table-title">Oiseaux les plus menacés en France</caption>
+      <p id="table-summary">
+        Ce tableau présente les cinq espèces d'oiseaux les plus menacées en France, avec leur statut, leur habitat, et
+        les menaces principales qui pèsent sur elles.
+      </p>
+      <thead>
+      <tr>
+        <th id="species" scope="col">Espèce</th>
+        <th id="status" scope="col">Statut</th>
+        <th id="habitat" scope="col">Habitat</th>
+        <th id="threats" scope="col">Menaces principales</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td headers="species">Puffin des Baléares (<em>Puffinus mauretanicus</em>)</td>
+        <td headers="status">En danger critique</td>
+        <td headers="habitat">Océan et côtes rocheuses</td>
+        <td headers="threats">Pollution plastique, capture accidentelle par la pêche</td>
+      </tr>
+      <tr>
+        <td headers="species">Glaréole à collier (<em>Glareola pratincola</em>)</td>
+        <td headers="status">En danger</td>
+        <td headers="habitat">Zones humides</td>
+        <td headers="threats">Destruction des habitats, dérangement humain</td>
+      </tr>
+      <tr>
+        <td headers="species">Râle des genêts (<em>Crex crex</em>)</td>
+        <td headers="status">En danger</td>
+        <td headers="habitat">Prairies humides</td>
+        <td headers="threats">Intensification de l’agriculture, perte d’habitat</td>
+      </tr>
+      <tr>
+        <td headers="species">Marouette ponctuée (<em>Porzana porzana</em>)</td>
+        <td headers="status">Vulnérable</td>
+        <td headers="habitat">Zones humides</td>
+        <td headers="threats">Drainage des marais, pollution</td>
+      </tr>
+      <tr>
+        <td headers="species">Courlis cendré (<em>Numenius arquata</em>)</td>
+        <td headers="status">En danger</td>
+        <td headers="habitat">Prairies humides et zones côtières</td>
+        <td headers="threats">Déclin des habitats, prédation</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <div class="card">
+      <a aria-label="Secourir un animal"
+         href="#distress-check">
+        <div>
+          <h4>Secourir un animal</h4>
+          <p title="Tous nos conseils pour aider la faune sauvage en détresse">Tous nos conseils pour aider la
+            faune sauvage en détresse</p>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a aria-label="Créer un Refuge LPO" href="#refuge-lpo-section">
+        <div>
+          <h4>Créer un Refuge LPO</h4>
+          <p title="Faites partie du 1er réseau de jardins écologiques en France">Faites partie du 1er réseau
+            de
+            jardins écologiques en France</p>
+        </div>
+      </a>
+    </div>
+    <div>
+      <h3>Grands rendez-vous</h3>
+      <div>
+        <p>Du 11 janvier 2025 au 12 janvier 2025</p>
+        <a
+          href="https://www.lpo.fr/decouvrir-la-nature/loisirs-nature/agenda-nature/agenda-lpo-france/2025/comptage-annuel-des-oiseaux-d-eau"
+          title="Comptage annuel des oiseaux d'eau">
+          Comptage annuel des oiseaux d'eau
+        </a>
+      </div>
+      <a aria-label="Voir tout l'agenda nature LPO"
+         href="https://www.lpo.fr/decouvrir-la-nature/loisirs-nature/agenda-nature">
+        Tout l'agenda nature LPO
+      </a>
+    </div>
+  </section>
+  <section>
+    <h2 id="distress-check">Secourir un animal</h2>
+    <p>De trop nombreux animaux sauvages sont recueillis et amenés inutilement en centre de sauvegarde. Aussi, avant
+      d’agir, assurez-vous d’abord que l’animal est bien en situation de détresse. Prenez le temps d’observer, de
+      regarder l’environnement dans lequel vous l'avez trouvé. C’est important car un animal n'est pas forcément en
+      détresse ou abandonné par ses parents quand on le trouve au sol...</p>
+    <p>Idéalement, ne recueillez un animal que s’il est manifestement blessé (aile pendante, trace de saignement,
+      impossibilité de se tenir sur ses pattes). La majorité des animaux sauvages craint l’homme. Oiseaux et mammifères
+      s’enfuient instinctivement à son approche. Un individu adulte qui reste immobile est vraisemblablement malade,
+      affaibli ou blessé. Incapable de se défendre, il s’expose à la prédation par d’autres animaux et à des dangers
+      divers (faim, déshydratation, épuisement…).</p>
 
+    <h3 id="bird-distress">Si l’animal est un oiseau sauvage en détresse</h3>
+    <ul>
+      <li>Protégez-vous ! Faites bien attention aux serres des rapaces et aux coups de bec des échassiers. Utilisez des
+        gants et soyez vigilant aux mouvements de votre tête et de celle de l’oiseau !
+      </li>
+      <li>Capturez-le avec prudence, précautions et sans précipitation, à l’aide d’un tissu épais (serviette,
+        vêtement…). Dans l’obscurité, l’oiseau se calmera. Maintenez-lui les ailes collées au corps et la tête cachée.
+        Ne jamais bloquer ou fermer le bec d’un oiseau avec un élastique ou du ruban adhésif !
+      </li>
+      <li>Ne lui donnez ni à manger ni à boire. Vous risqueriez de l’étouffer ou de lui donner une nourriture
+        inadaptée.
+      </li>
+      <li>Placez-le dans un carton, ne le mettez pas en cage, il risquerait de se blesser davantage. Isolez-le en
+        attendant de le transférer vers une structure habilitée. Placez-le au calme dans une pièce tempérée.
+      </li>
+      <li>Contactez le centre de soins le plus proche de chez vous ou appelez la LPO qui vous conseillera au <a
+        href="tel:0546821234">05 46 82 12 34</a>.
+      </li>
+    </ul>
+
+    <h3 id="chick-care">Cas des oisillons</h3>
+    <p>La reproduction des oiseaux commence au printemps. Après quelques jours ou semaines les jeunes oiseaux se
+      retrouvent vite à l'étroit et peuvent s'aventurer au sol, à la merci des dangers. Mais attention, un jeune oiseau
+      au sol est très rarement abandonné ! Ne le ramassez pas systématiquement !</p>
+    <ul>
+      <li>Dans un premier temps, conservez vos distances avant d'aller vers lui et posez-vous certaines questions :
+        Est-il blessé ? En danger ?
+      </li>
+      <li>Si l'oisillon ne semble pas pouvoir s'envoler mais sautille de branche en branche ou volète au-dessus du sol,
+        ne faites rien. Si vous l'avez déjà recueilli, remettez-le vite où vous l'avez trouvé.
+      </li>
+      <li>Pour un oisillon en duvet ou peu emplumé : si son nid est intact, replacez-le dedans. Si son nid est détruit
+        ou introuvable, essayez d'en créer un sommaire au même endroit.
+      </li>
+      <li>Pour un oisillon bien emplumé, qui sautille au sol mais qui ne vole pas encore, laissez faire ses parents.
+        S'il se trouve en un lieu particulièrement exposé, mettez-le en sûreté sur une branche, un muret, dans une haie,
+        un buisson…
+      </li>
+    </ul>
+
+    <h3 id="mammal-distress">Si l’animal est un mammifère sauvage en détresse</h3>
+    <ul>
+      <li>Protégez-vous également ! Quelle que soit l'espèce, portez obligatoirement des gants ! Faites attention aux
+        morsures, griffures, coups de sabot, etc.
+      </li>
+      <li>Capturez-le avec prudence, précautions et sans précipitation. S’approcher calmement de l’animal et le
+        recouvrir avec un tissu.
+      </li>
+      <li>Ne tenez jamais les Gliridés (loirs, lérots et muscardins) par la queue qui est fragile et qui se
+        détacherait.
+      </li>
+      <li>Placez le mammifère dans un carton. Préparez une feuille de renseignements (coordonnées, lieu de
+        découverte…).
+      </li>
+      <li>Ne lui donnez ni à manger ni à boire. Vous risqueriez de l’étouffer ou de lui donner une nourriture
+        inadaptée.
+      </li>
+      <li>Placez-le au calme dans une pièce tempérée.</li>
+      <li>Contactez le centre de soins le plus proche de chez vous ou appelez la LPO qui vous conseillera au <a
+        href="tel:0546821234">05 46 82 12 34</a>.
+      </li>
+    </ul>
+
+    <h3 id="young-mammals">Cas des jeunes mammifères</h3>
+    <p>Certaines espèces (lièvres d’Europe, chevreuils…) cachent leurs petits dans l’herbe haute des prairies. Ceux-ci
+      restent alors immobiles, à l’endroit exact où leur mère les a laissés. Il ne faut alors surtout pas les récupérer,
+      ni même les toucher !</p>
+    <p>Un jeune mammifère qui se déplace au sol doit être surveillé. Pour un jeune écureuil, il est préférable de le
+      remettre dans l’arbre et de veiller à ce que sa mère le récupère.</p>
+    <p>Les hérissons ne s’enfuient pas toujours à l’approche d’un homme mais se roulent souvent en boule. Il ne faut
+      donc pas systématiquement les récupérer ! En revanche, un hérisson se déplaçant en pleine journée ou au cœur de
+      l’hiver peut avoir besoin d’aide.</p>
+  </section>
+  <section aria-labelledby="refuge-lpo-section">
+    <h2 id="refuge-lpo-section">Créer un refuge LPO</h2>
+    <figure aria-label="Image d'un nichoir pour oiseaux installé dans un jardin avec une description" role="figure">
+      <img alt="Nichoir en bois suspendu à un arbre avec une mésange entrant à l'intérieur"
+           src="https://cdn-s-www.leprogres.fr/images/812D717A-7E41-44BA-839A-738B7D0006B6/NW_raw/un-type-de-nichoir-pour-oiseaux-photo-lpo-1682527895.jpg"/>
+      <figcaption>
+        Un nichoir en bois installé dans un jardin favorise la nidification des mésanges et d'autres espèces d'oiseaux.
+        Une pratique simple et efficace pour contribuer à la biodiversité.
+      </figcaption>
+    </figure>
+
+    <p>Vous disposez d'un terrain et souhaitez y protéger la nature ?<br>
+      La LPO vous propose de créer un Refuge LPO.</p>
+
+    <p>Il n’y a pas de superficie minimale pour créer un Refuge LPO chez vous. Un jardinet de quelques mètres carrés,
+      une cour, une terrasse suffisent.
+      De bonnes pratiques de gestion (voir les 15 gestes Refuges) et quelques aménagements permettent de redonner une
+      place à la nature.</p>
+
+    <p>En agissant à votre échelle, vous contribuez par votre engagement à réduire le déclin de la biodiversité.</p>
+    jardin
+    <h3 id="inscription-simple">L’inscription Refuges est simple !</h3>
+    <p>Il vous suffit de :</p>
+    <ul aria-labelledby="inscription-simple">
+      <li>vous engager à respecter la <strong>Charte Refuges LPO</strong> ;</li>
+      <li>décrire votre terrain, votre futur refuge ;</li>
+      <li>vous inscrire en ligne sur <a aria-label="Inscription à Mon Espace LPO (ouvre une nouvelle fenêtre)"
+                                        href="https://monespace.lpo.fr" rel="noopener"
+                                        target="_blank">Mon
+        espace LPO</a> et de procéder au règlement de 35 €.
+      </li>
+    </ul>
+
+    <p><a aria-label="Lien vers Mon Espace LPO pour s'inscrire" href="https://monespace.lpo.fr" rel="noopener"
+          target="_blank">Inscrivez-vous sur Mon Espace LPO !</a></p>
+
+    <h3 id="coffret-accueil">Dès votre inscription, vous recevrez votre coffret* d'accueil contenant :</h3>
+    <ul aria-labelledby="coffret-accueil">
+      <li>1 panneau permettant d’officialiser et de faire connaître votre Refuge LPO ;</li>
+      <li>1 nichoir destiné aux « petites » mésanges ;</li>
+      <li>3 livrets mini-guides : Comment cohabiter avec la faune et la flore sauvages, Oiseaux des jardins, Un refuge
+        sans chasse pour la biodiversité.
+      </li>
+      <li>+ Abonnement à la Newsletter mensuelle « l'Echo Refuges LPO ».</li>
+    </ul>
+
+    <h3 id="avantages-abonnement">Votre abonnement au programme Refuges LPO vous permet de :</h3>
+    <ul aria-labelledby="avantages-abonnement">
+      <li>Faire partie de la communauté des Refuges LPO et accéder au programme d’animation locale près de chez vous ;
+      </li>
+      <li>Recevoir la newsletter des Refuges (mensuelle et exclusive) « l'Echo Refuges LPO » ;</li>
+      <li>Accéder à votre espace web personnalisé pour tenir en ligne le tableau de bord de votre Refuge et autoévaluer
+        vos pratiques écologiques et aménagements dans votre Refuge afin de bénéficier de conseils adaptés et ainsi
+        faire évoluer vos pratiques ;
+      </li>
+      <li>Accéder aux conseils de la LPO (par mail et téléphone) ;</li>
+      <li>Bénéficier automatiquement d'une réduction de –10% sur les commandes en ligne sur le site de la boutique LPO,
+        dans la catégorie "Jardin d’Oiseaux" (hors alimentation) ;
+      </li>
+      <li>Bénéficier d’une offre d’abonnement préférentiel à la revue nature de la LPO L’OISEAU Magazine, disposant
+        d’une rubrique dédiée aux Refuges LPO (20 € au lieu de 24 €/an).
+      </li>
+    </ul>
+
+    <p>Chaque année, vous serez invités à renouveler votre abonnement au programme Refuges LPO pour un montant de 15
+      €.</p>
+
+    <h3 id="allez-plus-loin">Allez plus loin !</h3>
+    <p>L’inscription au réseau des Refuges LPO est indépendante de l’adhésion à l'association LPO.<br>
+      Allez plus loin : en plus de votre engagement Refuge LPO, <a aria-label="Lien pour adhérer à la LPO" href="#">adhérez
+        à la LPO</a> !</p>
+    <form action="#" aria-labelledby="form-title" method="POST">
+      <fieldset>
+        <legend id="form-title">Formulaire d'inscription</legend>
+        <div>
+          <label for="first-name">Prénom <span aria-hidden="true">*</span></label>
+          <input aria-required="true" autocomplete="given-name" id="first-name" name="first-name" required type="text"/>
+        </div>
+        <div>
+          <label for="last-name">Nom <span aria-hidden="true">*</span></label>
+          <input aria-required="true" autocomplete="family-name" id="last-name" name="last-name" required type="text"/>
+        </div>
+        <div>
+          <label for="address">Adresse <span aria-hidden="true">*</span></label>
+          <input aria-required="true" autocomplete="street-address" id="address" name="address" required type="text"/>
+        </div>
+        <div>
+          <button type="submit">Envoyer</button>
+        </div>
+      </fieldset>
+    </form>
+
+  </section>
+
+</main>
+<footer>
+  <p>&copy; 2024 LPO - Ligue pour la Protection des Oiseaux</p>
+</footer>
+<script src="index.js"></script>
 </body>
 </html>
